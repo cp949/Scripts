@@ -1,6 +1,8 @@
 #!/bin/sh
 
 
+# copy from https://github.com/niklasberglund/xcode-clean.sh
+# And some modified for me
 
 
 text_magenta=$(tput setaf 5)
@@ -156,3 +158,5 @@ fi
 if $remove_simulator_data; then
     remove_contents "$simulator_data_path" "simulator data" "-s"
 fi
+
+
